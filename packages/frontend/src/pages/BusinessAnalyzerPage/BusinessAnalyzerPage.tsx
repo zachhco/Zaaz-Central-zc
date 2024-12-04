@@ -93,13 +93,16 @@ const BusinessAnalyzerPage: React.FC = () => {
                     borderColor: 'var(--border-color)',
                   },
                   '& input': {
-                    color: 'white',
+                    color: 'var(--text-primary)',
                   },
+                  backgroundColor: 'var(--background-paper)',
                 },
                 '& .MuiInputLabel-root': {
                   color: 'var(--text-secondary)',
+                  backgroundColor: 'var(--card-background)',
+                  padding: '0 4px',
                   '&.Mui-focused': {
-                    color: 'white',
+                    color: 'var(--primary)',
                   },
                 },
               }}
@@ -117,13 +120,16 @@ const BusinessAnalyzerPage: React.FC = () => {
                     borderColor: 'var(--border-color)',
                   },
                   '& input': {
-                    color: 'white',
+                    color: 'var(--text-primary)',
                   },
+                  backgroundColor: 'var(--background-paper)',
                 },
                 '& .MuiInputLabel-root': {
                   color: 'var(--text-secondary)',
+                  backgroundColor: 'var(--card-background)',
+                  padding: '0 4px',
                   '&.Mui-focused': {
-                    color: 'white',
+                    color: 'var(--primary)',
                   },
                 },
               }}
@@ -143,13 +149,16 @@ const BusinessAnalyzerPage: React.FC = () => {
                     borderColor: 'var(--border-color)',
                   },
                   '& textarea': {
-                    color: 'white',
+                    color: 'var(--text-primary)',
                   },
+                  backgroundColor: 'var(--background-paper)',
                 },
                 '& .MuiInputLabel-root': {
                   color: 'var(--text-secondary)',
+                  backgroundColor: 'var(--card-background)',
+                  padding: '0 4px',
                   '&.Mui-focused': {
-                    color: 'white',
+                    color: 'var(--primary)',
                   },
                 },
               }}

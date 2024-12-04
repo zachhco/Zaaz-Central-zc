@@ -63,8 +63,7 @@
 }
 
 .nav-item:hover {
-  background: var(--hover-color);
-  color: var(--text-primary);
+  color: white;
 }
 
 .nav-item.active {

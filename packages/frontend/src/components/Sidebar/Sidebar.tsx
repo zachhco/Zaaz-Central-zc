@@ -76,6 +76,10 @@ const Sidebar: React.FC = () => {
               <FiDollarSign className="icon" />
               <span>Business Analyzer</span>
             </Link>
+            <Link to="/real-estate-evaluator" className={`nav-item ${location.pathname === '/real-estate-evaluator' ? 'active' : ''}`} onClick={() => setIsOpen(false)}>
+              <FiHome className="icon" />
+              <span>Real Estate Evaluator</span>
+            </Link>
           </div>
 
           <div className="nav-group">

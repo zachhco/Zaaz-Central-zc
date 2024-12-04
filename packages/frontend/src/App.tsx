@@ -10,6 +10,7 @@ import ProjectsPage from './pages/ProjectsPage/ProjectsPage';
 import KanbanBoard from './pages/ProjectsPage/KanbanBoard';
 import MeetingSummarizerPage from './pages/MeetingSummarizerPage/MeetingSummarizerPage';
 import BusinessAnalyzerPage from './pages/BusinessAnalyzerPage/BusinessAnalyzerPage';
+import RealEstateEvaluatorPage from './pages/RealEstateEvaluatorPage/RealEstateEvaluatorPage';
 import FavoritesPage from './pages/FavoritesPage/FavoritesPage';
 import RecentPage from './pages/RecentPage/RecentPage';
 
@@ -32,6 +33,7 @@ const App: React.FC = () => {
         {/* Workflow Routes */}
         <Route path="/meeting-summarizer" element={<Layout><MeetingSummarizerPage /></Layout>} />
         <Route path="/business-analyzer" element={<Layout><BusinessAnalyzerPage /></Layout>} />
+        <Route path="/real-estate-evaluator" element={<Layout><RealEstateEvaluatorPage /></Layout>} />
         
         {/* Quick Access Routes */}
         <Route path="/favorites" element={<Layout><FavoritesPage /></Layout>} />
